@@ -1,0 +1,90 @@
+body
+{
+    background-color:  rgba(219, 68, 131, 0.658);
+    font-family: sans-serif;
+}
+
+.flexbox
+{
+    display: flex;
+}
+
+.container
+{
+    margin: 50px auto;
+    width: fit-content;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.61);
+    padding: 25px;
+}
+
+.hero img
+{
+    margin: auto;
+    display: block;
+    width: 250px;
+    border: 2px groove rgba(219, 68, 131, 0.658);
+    border-radius: 10em;
+}
+
+.hero p
+{
+    text-align: center;
+    color: rgba(255, 131, 182, 0.658);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.685);
+    
+}
+
+.menu
+{
+    position: relative;
+    bottom: 20px;
+    flex-flow: row wrap;
+    padding: 0;
+    justify-content: center;
+    gap: 25px;
+    
+    
+}
+
+.menu li
+{
+    list-style-type: none;
+    border: 2px solid rgb(235, 27, 114);
+    border-radius: 5px;    
+
+}
+
+.menu a
+{
+    width: 100px;
+    text-align: center;
+    background-color: rgba(219, 68, 131, 0.658);
+    color: white;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.479);
+    display: inline-block;
+    padding: 10px;
+    text-decoration: underline;
+    
+}
+
+
+.menu a:active
+{
+    background-color: rgba(235, 27, 114, 0.658);
+    text-shadow: 1px 1px 3px rgba(255, 255, 255, 0.479);
+}
+
+
+.gif
+{
+    flex-direction: row-reverse;
+    
+   
+}
+
+.gif img
+{
+    width: 100px;
+    height: 100px;
+}
